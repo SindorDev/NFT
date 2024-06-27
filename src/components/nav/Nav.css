@@ -1,0 +1,61 @@
+@font-face {
+     font-family: "DM Sans";
+     src: url(../../assets/Fonts/DM\ Sans.woff2);
+}
+
+body {
+     background-color: black;
+}
+
+.navLogo {
+     display: flex;
+     align-items: center;
+     gap: 4px;
+}
+.navWrapper {
+     padding: 20px 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.navRight {
+     display: flex;
+     align-items: center;
+     gap: 82px;
+}
+.navSearch {
+     display: flex;
+     align-items: center;
+     gap: 18px;
+     width: 100%;
+     max-width: 284px;
+     padding: 16px 21px;
+}
+.navSearch input {
+     background-color: transparent;
+     border: none;
+     outline: none;
+     font-family: "DM Sans";
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 26px;
+     text-align: left;
+     color: #fff;
+}
+.navSearch input::placeholder {
+     color: #fff;
+}
+.navList {
+     display: flex;
+     align-items: center;
+     gap: 56px;
+}
+.itemLink {
+     text-decoration: none;
+     color: #F4F4F4;
+     font-family: "DM Sans";
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 26px;
+     text-align: left;
+}

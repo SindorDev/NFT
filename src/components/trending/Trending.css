@@ -1,0 +1,12 @@
+.trendingWrapper {
+     margin-top: 180px;
+}
+
+.trendingCards {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 24px;
+     flex-wrap: wrap;
+     margin-top: 50px
+}

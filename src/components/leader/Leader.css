@@ -1,0 +1,65 @@
+#leader {
+     background-color: #191919;
+     padding: 100px 0;
+     margin-top: 182px;
+}
+
+.leaderWrapper h1 {
+     font-family: "DM Sans";
+     font-size: 40px;
+     font-weight: 700;
+     line-height: 40px;
+     letter-spacing: -0.003em;
+     text-align: center;
+     color: #fff;
+     margin-bottom: 103px;
+}
+.wrapperCards {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.leaderCard {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     text-align: center;
+     position: relative;
+}
+.leaderCardContent {
+     display: flex;
+     flex-direction: column;
+     gap: 4px;
+}
+.leaderCardContent h3 {
+     font-family: "DM Sans";
+     font-size: 26px;
+     font-weight: 500;
+     line-height: 34px;
+     text-align: center;
+     color: #fff;
+}
+.leaderCardContent p {
+     display: flex;
+     align-items: center;
+     gap: 5px;
+     justify-content: center;
+     font-family: "DM Sans";
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 26px;
+     text-align: center;
+     color: #fff;
+}
+.hashtag {
+     position: absolute;
+     top: -11px;
+     width: 30px;
+     height: 30px;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50%;
+}

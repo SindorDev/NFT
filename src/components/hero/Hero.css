@@ -1,0 +1,52 @@
+.heroWrapper {
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+     margin-top: 45px;
+}
+.heroContent {
+     width: 100%;
+     max-width: 622px;
+}
+.heroContent strong {
+     font-family: DM Sans;
+     font-size: 13.54px;
+     font-weight: 400;
+     line-height: 23.97px;
+     letter-spacing: 0.31em;
+     text-align: left;
+     color: #f4f4f4;
+}
+.heroContent h1 {
+     font-family: "Clash Display Variable";
+     font-size: 68.89px;
+     font-weight: 500;
+     line-height: 84.5px;
+     letter-spacing: -0.003em;
+     text-align: left;
+     color: #fff;
+     margin: 12px 0 30px 0;
+}
+.heroContent p {
+     font-family: "DM Sans";
+     font-size: 24px;
+     font-weight: 400;
+     line-height: 42.5px;
+     text-align: left;
+     color: #f4f4f4;
+}
+.heroBtn {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     padding: 19px 48px;
+     background: linear-gradient(108.39deg, #FF56BB 6.99%, #FF8F77 119.86%);
+     border-radius: 16px;
+     font-family: "DM Sans";
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 26px;
+     text-align: left;
+     color: #fff;
+     margin-top: 74px;
+}
