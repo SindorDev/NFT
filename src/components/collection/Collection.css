@@ -23,6 +23,7 @@
      padding: 22px;
      border-radius: 9px;
      gap: 33px;
+     min-height: 377px;
      background-color: #1F1F1F;
 }
 .contentUser {

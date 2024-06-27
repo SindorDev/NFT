@@ -19,6 +19,7 @@ body {
      justify-content: space-between;
 }
 .navRight {
+     flex: 1;
      display: flex;
      align-items: center;
      gap: 82px;
@@ -28,7 +29,6 @@ body {
      align-items: center;
      gap: 18px;
      width: 100%;
-     max-width: 284px;
      padding: 16px 21px;
 }
 .navSearch input {
@@ -41,6 +41,12 @@ body {
      line-height: 26px;
      text-align: left;
      color: #fff;
+     width: 100%;
+     padding: 10px;
+     border-radius: 20px;
+}
+.navSearch input:focus {
+     box-shadow: rgba(255, 255, 255, 0.707) 0px 0px 15px;
 }
 .navSearch input::placeholder {
      color: #fff;
@@ -49,6 +55,7 @@ body {
      display: flex;
      align-items: center;
      gap: 56px;
+     list-style: none;
 }
 .itemLink {
      text-decoration: none;
@@ -58,4 +65,10 @@ body {
      font-weight: 700;
      line-height: 26px;
      text-align: left;
+     padding-bottom: 5px;
+     transition: all .3s ease-in-out;
+     border-bottom: 3px solid transparent;
+}
+.itemLink:hover {
+     border-bottom: 3px solid #fff;
 }

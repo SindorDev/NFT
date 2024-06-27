@@ -15,7 +15,18 @@ import avatar4 from "../assets/images/leaderboard.png"
 import avatar5 from "../assets/images/leaderboard5.png"
 import checked from "../assets/images/check.svg"
 import etherioum from "../assets/images/etherioum.svg"
-
+import exploreImage1 from "../assets/images/explore1.png"
+import exploreImage2 from "../assets/images/explore2.png"
+import exploreImage3 from "../assets/images/explore3.png"
+import exploreImage4 from "../assets/images/explore4.png"
+import exploreImage5 from "../assets/images/explore5.png"
+import exploreImage6 from "../assets/images/explore6.png"
+import exploreImage7 from "../assets/images/explore7.png"
+import exploreImage8 from "../assets/images/explore8.png"
+import exploreImage9 from "../assets/images/explore9.png"
+import exploreImage10 from "../assets/images/explore10.png"
+import exploreImage11 from "../assets/images/explore11.png"
+import exploreImage12 from "../assets/images/explore12.png"
 const NavImage = [
      {
           Image: [navImage1] 
@@ -172,5 +183,141 @@ const LeaderData = [
      },
 ]
 
+const ExploreDataBase = [
+     {
+          id: 1,
+          image: exploreImage1,
+          title: "ExBoot #1",
+          avatar: avatar1,
+          check: checked,
+          avatarTitle: "Perperzon",
+          text: "Current Bid",
+          logo: "3.421",
+          logoImage: etherioum 
+     },
+     {
+          id: 2,
+          image: exploreImage2,
+          title: "ExBoot #2",
+          avatar: avatar5,
+          avatarTitle: "Antonson",
+          check: checked,
+          text: "Current Bid",
+          logo: "3.421",
+          logoImage: etherioum 
+     },
+     {
+          id: 3,
+          image: exploreImage3,
+          title: "Future of Polygon X",
+          avatar: avatar4,
+          check: checked,
+          avatarTitle: "Michael",
+          text: "Current Bid",
+          logo: "3.421",
+          logoImage: etherioum 
+     },
+     {
+          id: 4,
+          image: exploreImage4,
+          title: "Blue Wave #2",
+          avatar: avatar3,
+          check: checked,
+          text: "Current Bid",
+          avatarTitle: "Anderson",
+          logo: "3.421",
+          logoImage: etherioum 
+     },
+     {
+          id: 5,
+          image: exploreImage5,
+          title: "ExBoot #1",
+          avatar: avatar1,
+          check: checked,
+          avatarTitle: "Michael",
+          text: "Current Bid",
+          logo: "3.421",
+          logoImage: etherioum 
+     },
+     {
+          id: 6,
+          image: exploreImage6,
+          title: "ExBoot #2",
+          avatar: avatar2,
+          avatarTitle: "Richard ",
+          check: checked,
+          text: "Current Bid",
+          logo: "3.421",
+          logoImage: etherioum 
+     },
+     {
+          id: 7,
+          image: exploreImage7,
+          title: "Future of Polygon X",
+          avatar: avatar4,
+          check: checked,
+          avatarTitle: "Anderson",
+          text: "Current Bid",
+          logo: "3.421",
+          logoImage: etherioum 
+     },
+     {
+          id: 8,
+          image: exploreImage8,
+          title: "Blue Wave #2",
+          avatar: avatar5,
+          check: checked,
+          text: "Current Bid",
+          avatarTitle: "Antonson",
+          logo: "3.421",
+          logoImage: etherioum 
+     },
+     {
+          id: 9,
+          image: exploreImage9,
+          title: "ExBoot #1",
+          avatar: avatar1,
+          check: checked,
+          avatarTitle: "Perperzon",
+          text: "Current Bid",
+          logo: "3.421",
+          logoImage: etherioum 
+     },
+     {
+          id: 10,
+          image: exploreImage10,
+          title: "ExBoot #2",
+          avatar: avatar5,
+          avatarTitle: "Antonson",
+          check: checked,
+          text: "Current Bid",
+          logo: "3.421",
+          logoImage: etherioum 
+     },
+     {
+          id: 11,
+          image: exploreImage11,
+          title: "Future of Polygon X",
+          avatar: avatar4,
+          check: checked,
+          avatarTitle: "Michael",
+          text: "Current Bid",
+          logo: "3.421",
+          logoImage: etherioum 
+     },
+     {
+          id: 12,
+          image: exploreImage12,
+          title: "Blue Wave #2",
+          avatar: avatar3,
+          check: checked,
+          text: "Current Bid",
+          avatarTitle: "Richard",
+          logo: "3.421",
+          logoImage: etherioum 
+     },
+]
 
-export { NavImage , HeroImage , CardDataBase , CollectionData , LeaderData }
+
+
+export { NavImage , HeroImage , CardDataBase , CollectionData , LeaderData , ExploreDataBase }

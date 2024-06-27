@@ -15,8 +15,10 @@ function Nav() {
               </div>
 
               <div className="navSearch">
+                <label htmlFor="search">
                 <img src={NavImage[3].Image} alt="Search" />
-                <input type="search" placeholder="Search" />
+                </label>
+                <input type="search" placeholder="Search" id="search" />
               </div>
 
             </div>

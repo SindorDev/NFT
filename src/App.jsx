@@ -1,5 +1,6 @@
 import './App.css'
 import Collection from './components/collection/Collection'
+import Expolre from './components/explore/Expolre'
 import Hero from './components/hero/Hero'
 import Leader from './components/leader/Leader'
 import Nav from './components/nav/Nav'
@@ -13,6 +14,7 @@ function App() {
       <Trending />
       <Collection />
       <Leader /> 
+      <Expolre /> 
     </>
   )
 }

@@ -1,0 +1,44 @@
+.exploreWrapper {
+     margin-top: 133px;
+}
+.exploreWrapper h1 {
+     font-family: DM Sans;
+     font-size: 40px;
+     font-weight: 700;
+     line-height: 40px;
+     letter-spacing: -0.003em;
+     text-align: left;
+     color: #fff;
+}
+
+
+.exploreCards {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 50px 23px;
+     margin-top: 51px;
+}
+.exploreButton {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.exploreBtn {
+     padding: 11px 43px;
+     margin: 60px 0 20px 0;
+     border-radius: 20px;
+     background-color: transparent;
+     border: 1px solid #fff;
+     color: #fff;
+     font-family: "DM Sans";
+     font-size: 15px;
+     font-weight: 700;
+     line-height: 23px;
+     transition: all .2s ease-in-out;
+}
+.exploreBtn:hover {
+     border: 1px solid transparent;
+     background-color: white;
+     color: #000;
+     box-shadow: rgba(255, 255, 255, 0.586) 0px 0px 15px;
+}

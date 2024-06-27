@@ -49,4 +49,13 @@
      text-align: left;
      color: #fff;
      margin-top: 74px;
+     border: 2px solid transparent;
+     transition: all .3s ease-in-out;
+}
+.heroBtn:hover {
+     border: 2px solid #FF56BB;
+     background: transparent;
+     color: rgb(255, 86, 187);
+     webkit-border-radius: 20px;
+     box-shadow: rgb(255,86,187) 0px 0px 15px;
 }
